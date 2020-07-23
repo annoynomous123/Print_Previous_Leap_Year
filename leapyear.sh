@@ -10,9 +10,8 @@ else until [ `expr $a % 4` -eq 0 ]
 do
 a = `expr $a - 1`
 done
+fi
 echo " Last Leap Year was :" $a
 echo " <------------------- The Calender Is --------------------> "
 echo $a
 cal 2 $a
-
-fi
